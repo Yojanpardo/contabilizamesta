@@ -11,6 +11,7 @@ body{
 	height: 500px;
 	width: 300px;
 	margin: 5% auto;
+	box-shadow: rgba(150 , 150,150 , 0.7) 1px 5px 5px;
 }
 
 #acceder:hover{
@@ -29,13 +30,15 @@ body{
 }
 
 #acceder{
-	transition: transform 0.2s ease	0s;
+	color: #FFFFFF;
+	border: 1px solid #446CB9;
 	border-radius: 5px;
-	font-size: 13px;
+	background: #446CB3;
+	transition: transform 0.2s ease	0s;
+	font-size: 15px;
 	height: 30px;
-	width: 70px;
-	margin: 10px 115px 10px 115px;
-	transition: 
+	width: 85%;
+	margin: 20px 7.5%;
 }
 
 #logo{
