@@ -6,6 +6,7 @@ function iniciar() {
 	usuario.addEventListener("input",validacion,false);
 	pass.addEventListener("input",validacion,false);
 	validacion();
+	direccionar();
 
 }
 
@@ -23,6 +24,12 @@ function validacion() {
 	}else{
 		pass.setCustomValidity("");
 		pass.style.background="#FFFFFF";
-		
 	}
+}
+
+function direccionar() {
+	if(usuario.value!="" &&  pass.value!=""){
+	window.location ="dashboard.html"; 
+	}
+	
 }

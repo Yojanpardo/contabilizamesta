@@ -14,16 +14,17 @@ body{
 	box-shadow: rgba(150 , 150,150 , 0.7) 1px 5px 5px;
 }
 
-#acceder:hover{
-	transform: scale(0.95);
-}
 #usuario{
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
 	height: 30px;
 	width: 250px;
 	margin: 20px 20px 10px 20px;
 }
 
 #pass{
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
 	height: 30px;
 	width: 250px;
 	margin: 10px 20px 20px 20px;
@@ -39,6 +40,10 @@ body{
 	height: 30px;
 	width: 85%;
 	margin: 20px 7.5%;
+}
+#acceder:hover{
+	transform: scale(0.95);
+
 }
 
 #logo{
