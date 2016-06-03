@@ -11,10 +11,16 @@
 <body>
 <div id="login">
 	<img id="logo" src="assets/logo.png" height="150" width="150">
-	<form id="ingreso">
-	<input id="usuario" type="text" placeholder="Usuario"></input>
-	<input id="pass" type="password" placeholder="Contaseña" name="pass"></input>
-	<input id="acceder" type="Submit" value="Ingresar" onclick="iniciar()" ></input>	
+	<form id="ingreso" name="form" action="dashboard.html">
+		<div id="divUsuario">
+		<p id="verificarUsuario"><br></p>
+		<input id="usuario" type="text" placeholder="Usuario" name="usuario"></input>
+		</div>
+		<div id="divPass">
+		<p id="verificarPass"><br></p>
+		<input id="pass" type="password" placeholder="Contaseña" name="pass"></input>
+		<input id="acceder" type="button" value="Ingresar" onclick="iniciar()" ></input>
+		</div>
 	</form>
 </div>
 <footer>Desarrollado por Fixeles&copy LGTB 2016-2016</footer>
