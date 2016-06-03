@@ -5,6 +5,7 @@
     <title>Contabilizame Esta</title>
     <link  rel="stylesheet" href="normalize.css"/>
     <link rel="stylesheet" href="general.css"/>
+    <script type="text/javascript" src="javascript/dashboard.js"></script>
     <script src="http://use.edgefonts.net/varela-round:n4:all.js"></script>
 </head>
 <body>
@@ -24,22 +25,23 @@
     </nav>
     </div>
     <div id="container2">
-        <header id="headerSeccion">
-            <h1 id="tituloSeccion">VENDER</h1>
-        </header>
+    <section id="seccion">
+        <header id="headerSeccion"><h1 id="tituloSeccion">VENDER</h1></header>
         <div id="mesas">
-            
+        <article id="articleMesas">
+            <h2>Mesas</h2>
+            <input type="button" id="mesa" value="Mesa 1" onclick="iniciar();"></input>
+            <input type="button" id="mesa1" value="Mesa 2" onclick="iniciar();"></input>
+
+        </article>
         </div>
         <div id="ventas">
-            
+            <article>
+                <h2 id="titulo">Ventas</h2>
+            </article>
         </div>
-    </div>
-    <section id="seccion">
-       <header id="titulo"></header>
-        <article></article>
-        <article></article>
-        <article></article>
     </section>
-    <footer></footer>
+    </div>
+    <footer id="pie">Derechos reservados Fixeles&copy LGTB 2016-2016</footer>
 </body>
 </html>
