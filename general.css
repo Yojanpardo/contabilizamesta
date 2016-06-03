@@ -1,5 +1,10 @@
+html{
+    height: 100%;
+    width: 100%;
+}
 body {
-    
+    height: 100%;
+    width: 100%;
     background: #81CFE0;
     padding: 0;
     margin: 0;
@@ -10,8 +15,9 @@ body {
 #container1 {
     display: inline-block;
     margin-top: 0px;
-    height: 665px;
-    width: 400px;
+    margin-bottom: 0px;
+    height: 100%;
+    width: 25%;
     background: #34495E;
 }
 
@@ -29,9 +35,7 @@ body {
     text-align: center;
     float: right;
     margin-right: 30px;
-    
-    
-    font-size: 30px;
+    font-size: 20px;
     color: aliceblue;
 
 }
@@ -41,13 +45,14 @@ body {
 }
 
 #lista {
+    padding-left: 0px;
+    margin: 20px 5%;
     list-style: none;
 }
 
 #lista li {
     padding: 30px;
     margin: 20px;
-    margin-left: -50px;
     text-align: center;
     font-size: 30px;
     box-shadow: #1E8BC3 0px 10px;
@@ -62,4 +67,45 @@ body {
     background: #477698;
     box-shadow: #10425c 0px 10px;
     
+}
+
+#container2{
+    display: block;
+    float: right;
+    width: 75%;
+    height: 100%;
+}
+#headerSeccion{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    background: #34495E;
+    text-align: center;
+}
+#tituloSeccion{
+    margin: 0px;
+    padding: 20px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+#mesas{
+    float: left;
+    background: #4183D7;
+    width: 250px;
+    height: 480px;
+    margin: 50px;
+    margin-right: 25px;
+    border-radius: 7px;
+}
+#ventas{
+    float: right;
+    background: #4183D7;
+    width: 600px;
+    height: 480px;
+    margin: 50px;
+    margin-left: 25px;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
 }
