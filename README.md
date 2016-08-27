@@ -9,3 +9,4 @@ negocio.
 
 * comunicarnos con una base de datos en la nube
 * hacer la apliacion movil
+* terminar la aplicación web 
